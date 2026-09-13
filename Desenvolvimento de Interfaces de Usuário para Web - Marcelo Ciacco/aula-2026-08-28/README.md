@@ -1,17 +1,10 @@
-# aula28082026
+# Aula 28/08/2026 — Desenvolvimento de Interfaces de Usuário para Web
 
+Continuação de CSS: seletores de classe e o comportamento dos elementos
+block e inline.
 
-Folha em estilo cascata
+## Conteúdo
 
-TODA CLASSE VEM COM UM "." na frente
-
-Elementos BLOCK: Sempre em baixo. Força o elemento ir para a proxima linha.
-"
-    -
-    -
-    -
-"
-
-Elementos InLine: Sempre em Linha
-
-" - - - "
+- `index.html` — página HTML da entrega
+- `style.css` — estilização da página
+- [anotacoes-de-aula.md](./anotacoes-de-aula.md) — anotações da aula: folha de estilo em cascata, seletores de classe, elementos block e inline
