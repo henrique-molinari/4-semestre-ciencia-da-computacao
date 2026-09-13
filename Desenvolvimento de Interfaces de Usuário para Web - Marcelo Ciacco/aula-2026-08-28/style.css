@@ -1,0 +1,172 @@
+/* TIPOGRAFIA, CORES E VARIAVEIS */
+
+:root{
+    --cor-primaria: #2563eb;
+
+    --cor-texto: #1e293b;
+    --cor-texto-secundario: #64748b;
+
+    --cor-fundo: #f8fafc;
+    --cor-superficie: #ffffff;
+
+    --cor-borda: #e3e8f0;
+
+    --raio: 0.75rem;
+
+    
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--cor-texto);
+    background-color: var(--cor-fundo);
+
+}
+
+main{
+    background-color: var(--cor-fundo);
+
+}
+p{
+    color: var(--cor-texto-secundario);
+    /* font-size: 1rem;  tamanho relativo ao pai */
+    /*
+        vh => view height
+        vw => view width
+
+    */
+}
+
+#hero{
+    margin: 0 auto;
+    padding: 5rem 0;
+    max-width: 70rem;
+    width: 90%;
+
+}
+
+
+.fundo{
+    color: var(--cor-primaria);
+    font-weight: 700;
+}
+
+#hero h1{
+    margin: 0;
+    font-size: 3rem;
+    line-height: 1.1;
+}
+/* 
+    ">"
+    Selecionar os filhos diretos,
+    paragrafos que estão imediatamente
+    dentro do hero
+
+    "+"
+    Seleciona o primeiro elemento
+    encontrado após a declaração
+    do hero
+
+    "~"
+    Seleciona todos os elementos
+    encontrado após a declaração
+    do hero
+
+*/
+#hero ~ p{
+    
+    font-size: 2.5rem;
+    line-height: 1.6;
+}
+
+h1{
+    border: 1px solid red
+}
+
+.btn{
+    padding: 0.75rem 1.25rem;
+    color: white;
+    background-color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-block;
+    border-radius: var(--raio);
+}
+
+/* botão fica mais escuro quando passa em cima dele */
+.btn:hover{
+    background-color: blue;
+}
+
+.btn:focus{
+    outline: 3px solid #93c5fd;
+    outline-offset: 3px;
+}
+
+header{
+    background-color: var(--cor-superficie);
+    border-bottom: 1px solid var(--cor-borda);
+}
+
+.header-content{
+    width: 90%;
+    max-width: 70rem;
+    margin: 0 auto;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    flex-wrap: wrap;
+    border: 3px solid orange;
+}
+
+.logo{
+    color: var(--cor-texto);
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav{
+    display: inline;
+}
+
+.menu{
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: row; 
+}
+.menu a{
+    color: var(--cor-texto);
+    text-decoration: none;
+}
+
+.projects-section{
+    margin: 0 auto;
+    padding: 5rem 0;
+    max-width: 90rem;
+    width: 90%;
+    border: 1px solid royalblue;
+}
+.card{
+    background-color: var(--cor-superficie);
+    border: 1px solid var(--cor-borda);
+    border-radius: var(--raio);
+    overflow: hidden;
+    position: relative;
+}
+
+.card-content{
+    padding: 1.5rem;
+}
+
+.badge{
+    color: white;
+    background-color: var(--cor-primaria);
+    padding: 0.5rem 0.75rem;
+    border-radius: 999px;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}

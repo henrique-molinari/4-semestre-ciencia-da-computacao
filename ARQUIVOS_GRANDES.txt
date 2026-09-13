@@ -1,0 +1,27 @@
+ARQUIVOS GRANDES NAO ENVIADOS AO GITHUB
+=========================================
+Estes arquivos ficam listados no .gitignore e permanecem apenas no seu
+computador. Suba-os para uma pasta no Google Drive e cole o link no
+README.md da matéria "Integração de Dados - MAX VALLIM" (e no README raiz,
+se preferir).
+
+Pasta: Integração de Dados - MAX VALLIM/aula-2026-08-17/
+  - Arquivos csv/vendas.csv                (27,4 MB)
+  - Entrega/aula17.08.26                   (34,9 MB) - banco SQLite
+  - Entrega/aula17082026a.db               (35,4 MB) - banco SQLite
+  - Entrega/bancoDeDados.csv               (63,0 MB)
+
+Pasta: Integração de Dados - MAX VALLIM/aula-2026-08-24/
+  - aula24082026.db                        (51,4 MB) - banco SQLite
+  - test.pbix                              (26,3 MB) - arquivo Power BI
+  - vendas.csv                             (27,4 MB)
+  - vendas_limpo.csv                       (30,5 MB)
+
+Total aproximado: ~296 MB
+
+Depois de subir para o Drive:
+1. Compartilhe a pasta com "Qualquer pessoa com o link" (modo leitura).
+2. Cole o link no README.md de "Integração de Dados - MAX VALLIM",
+   na seção "Arquivos grandes (Google Drive)".
+3. Pode apagar este arquivo (ARQUIVOS_GRANDES.txt) do repositório depois
+   de colar o link, ou deixá-lo como registro histórico.

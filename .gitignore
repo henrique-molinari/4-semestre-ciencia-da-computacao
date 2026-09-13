@@ -1,0 +1,32 @@
+# Dependências
+node_modules/
+package-lock.json.bak
+
+# Variáveis de ambiente / segredos
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Sistema operacional / editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Arquivos de dados grandes (lista completa em ARQUIVOS_GRANDES.txt na raiz)
+# Cópia completa disponível no Google Drive linkado nos READMEs das matérias
+Integração de Dados - MAX VALLIM/aula-2026-08-17/Arquivos csv/vendas.csv
+Integração de Dados - MAX VALLIM/aula-2026-08-17/Entrega/aula17.08.26
+Integração de Dados - MAX VALLIM/aula-2026-08-17/Entrega/aula17082026a.db
+Integração de Dados - MAX VALLIM/aula-2026-08-17/Entrega/bancoDeDados.csv
+Integração de Dados - MAX VALLIM/aula-2026-08-24/aula24082026.db
+Integração de Dados - MAX VALLIM/aula-2026-08-24/test.pbix
+Integração de Dados - MAX VALLIM/aula-2026-08-24/vendas.csv
+Integração de Dados - MAX VALLIM/aula-2026-08-24/vendas_limpo.csv

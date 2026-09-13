@@ -1,0 +1,29 @@
+//requerer somente o metodo DataTypes do Sequelize
+const {DataTypes} = require('sequelize')
+//requerer a conexão com banco
+const conn = require('../db/conn')
+
+//definier o model user
+const User = conn.define('Users',{
+    name:{
+        type: DataTypes.STRING,
+        required: true
+    },
+    email:{
+        type: DataTypes.STRING,
+        required: true
+    },
+    password:{
+        type: DataTypes.STRING,
+        required: true
+    },
+    image:{
+        type: DataTypes.STRING,
+    },
+    phone:{
+        type: DataTypes.STRING,
+        required: true
+    }
+})
+
+module.exports = User

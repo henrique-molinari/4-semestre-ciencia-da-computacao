@@ -1,0 +1,22 @@
+
+CREATE TABLE gruposncm AS
+SELECT *
+FROM ncm
+WHERE length(ncm) =4
+
+select * from vendas v
+left join produtos p on (p.codigoProduto =v.codigoProduto)
+left join ncm n on (n.NCM=p.ncmproduto)
+left join gruposncm g on (g.ncm=substr(p.ncmproduto,1,4))
+
+CREATE VIEW vw_vendas_ncm AS
+SELECT *
+FROM vendas v
+LEFT JOIN produtos p
+ON p.codigoProduto = v.codigoProduto
+LEFT JOIN ncm n
+ON n.NCM = p.ncmproduto
+LEFT JOIN gruposncm g
+ON g.ncm = SUBSTR(p.ncmproduto, 1, 4);
+
+select * from gruposncm

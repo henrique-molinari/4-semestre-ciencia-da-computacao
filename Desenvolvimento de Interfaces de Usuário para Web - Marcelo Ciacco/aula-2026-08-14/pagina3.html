@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina 3</title>
+</head>
+<body>
+<!-- List Item - Lista de Item -->
+
+<!--  Unordinary List - Lista não ordenada -->
+<ul>
+    <li>Desenvolvimento Front-End</li>
+    <li>Desenvolvimento Back-End</li>
+    <li>Computação em Nuvem</li>
+    <li>Integração de Dados</li>
+</ul>
+
+<!--  Ordinary List - Lista ordenada-->
+<ol>
+    <li>Marcelo Ciacco</li>
+    <li>Nivaldo Andrade</li>
+    <li>Rodrigo Marudi</li>
+    <li>Max Valim</li>
+</ol>
+
+<!-- Imagens -->
+<!-- width para alterar largura -->
+<!-- height para alterar largura -->
+<img src ="assets/images/foto1.png" width ="150px">
+
+<img src ="assets/images/foto2.jpg" height ="150px"> 
+
+
+<!-- Tabelas -->
+<!-- Table => tabela -->
+<!-- thead => table header (cabeçalho) -->
+<!-- tbody + table body (corpo da tabela) -->
+<!-- tr => table row (linha da tabela) -->
+<!-- td => table data (coluna da tabela) -->
+
+<!-- inicio -->
+<br><br><br><br>
+<table border = "1"> 
+    <thead>
+        <tr>
+            <td>codigo</td>
+            <td>usuario</td>
+            <td>email</td>
+            <td>privado</td>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        <!-- usuario 1 inserido -->
+        <tr>
+            <td>001</td>
+            <td>user1</td>
+            <td>user1@gmail.com</td>
+            <td>vrdadeiro</td>
+        </tr>
+
+        <!-- usuario 2 inserido -->
+        <tr>
+            <td>002</td>
+            <td>user2</td>
+            <td>user1@gmail.com</td>
+            <td>falso</td>
+        </tr>
+
+        <!-- usuario 3 inserido -->
+        <tr>
+            <td>003</td>
+            <td>user3</td>
+            <td>&nbsp;</td>
+            <td>verdadeiro</td>
+        </tr>
+
+        <!-- FUNÇÃO inserido -->        
+        <tr>
+            <td colspan="3">Função</td>
+            <td><a href="#">Editar</a></td>
+        </tr>
+
+         <!-- usuario 4 inserido -->
+        <tr>
+            <td>004</td>
+            <td>user4</td>
+            <td rowspan="2">userduplo@gmail.com</td>
+            <td rowspan="2">verdadeiro</td>
+        </tr>
+
+        <!-- usuario 5 inserido -->
+        <tr>
+            <td>005</td>
+            <td>user5</td>
+        </tr>
+    </tbody>
+</table> 
+<!-- fim -->
+
+<!-- Formulario -->
+<!-- Form => formulário -->
+<!-- Label => Rótulo -->
+<!-- Input => Campo de texto de Entrada -->
+
+<!-- Form de login de usuário -->
+<br><br>
+<form>
+    <label for="user">Usuário</label>
+    <input type="text" id="user" name="user" placeholder="usuario"><br>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="email"><br>
+    <label for="pass">Senha</label>
+    <input type="password" id="pass" name="pass" placeholder="senha"><br>
+    <br><br>
+
+    <!-- Caixinha de seleção -->
+    <select>
+        <option>Vermelho</option>
+        <option>Verde</option>
+        <option>Azul</option>
+    </select> 
+    <br><br>
+
+    <!-- Caixa de texto que permite quebra de linha -->
+    <textarea>Digite um texto</textarea> 
+    <br><br>
+
+    <!-- Botoes com funções dentro do formulario -->
+    <button type="button">Clicar</button>
+    <button type="reset">Limpar</button>
+    <button type="submit">Cadastrar</button>
+
+
+
+
+</form>
+
+</body>
+</html>

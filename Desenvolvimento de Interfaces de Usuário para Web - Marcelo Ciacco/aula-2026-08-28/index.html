@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Folha de Estilo</title>
+    <!-- CSS External -->
+    <link rel="stylesheet" href="style.css"> 
+    <!-- CSS Internal -->
+    <!-- <style>
+
+    </style> -->
+</head>
+<body>
+    <!-- DEFININDO CABEÇALHO DA APLICAÇÃO -->
+     <header>
+        <div class="header-content">
+            <a href="#hero" class="logo">DevWeb</a>
+            <nav class="menu">
+                <a href="#projetos">Projetos</a>
+                <a href="#">Sobre</a>
+                <a href="#">Contato</a>
+            </nav>
+        </div>
+    </header>
+    <!-- CSS Inline -->
+    <!-- <h1 style="color:red;">Titulo </h1>< -->
+    <main>
+        <section id="hero">
+            <p class="fundo">
+                DESENVOLVIMENTO WEB
+            </p>
+            <h1>Projetos da Turma</h1>
+            <p>
+                Interfaces desenvolvidas durante o semestre
+            </p>
+            <a href="#projetos" class="btn">
+                Ver projetos
+            </a>
+            <section class="projects-section" id="projetos">
+                <div class="section-header">
+                <h2>Projetos</h2>
+                <p>
+                    Alguns projetos desenvolvidos durante o semestre
+                </p>
+                </div>
+                <div class="projects">
+                    <article class="card">
+                        <span class="badge">Destaque</span>
+                         <img src="https://placehold.co/600x360" alt="Imagem do Projeto">
+                        <div class="card-content">
+                        <h3>Sistema de Biblioteca</h3>
+                        <p>Aplicação para gerenciamento de livros e empréstimos.</p>
+                        <a href="#" class="btn">Ver detalhes</a>
+                        </div>
+
+                    </article>
+                </div>
+            </section>
+        </section>
+    </main>
+</body>
+</html>

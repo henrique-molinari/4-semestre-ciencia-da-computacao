@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1e293b;
+    background-color: #e6dede;
+}
+
+main{
+    background-color: rgb(253, 245, 206);
+}
+p{
+    color: #64748b;
+    font-size: 1rem;
+    /*
+        vh => view height
+        vw => view width
+
+    */
+}
+
+#hero{
+    margin: 0 auto;
+    padding: 40px 200px;
+    max-width: 500px;
+    width: 40%;
+    border: 5px solid rgb(0, 255, 76);
+
+}
+
+
+.fundo{
+    color: #2563eb;
+    font-weight: 700;
+}

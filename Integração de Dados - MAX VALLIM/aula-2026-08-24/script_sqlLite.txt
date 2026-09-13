@@ -1,0 +1,35 @@
+
+-- TRANSFORMANDO A DESCRIÇÃO EM MAIUSCULO
+
+update ncm  
+set descricao=upper(DESCRICAO)
+
+select * from ncm
+
+
+-- LIMPEZA DE ESPAÇOS NCM
+
+update ncm 
+set ncm=trim(ncm),descricao=trim(descricao)
+
+select * from produtos
+
+-- LIMPEZA DE ESPAÇOS PRODUTOS
+
+update produtos
+set codigoProduto=trim(codigoProduto),
+descricaoProduto=trim(descricaoProduto),
+unidadeProduto=trim(unidadeProduto),
+NCMProduto=trim(NCMProduto),
+
+select * from vendas
+select * from produtos
+
+update vendas 
+set dataVenda = DATE(dataVenda)
+
+update produtos 
+set NCMProduto='0'|| NCMProduto
+where length(ncmproduto)<8
+
+	
