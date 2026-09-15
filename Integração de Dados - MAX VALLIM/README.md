@@ -13,12 +13,14 @@ usando Python.
 | [aula-2026-08-10](./aula-2026-08-10) | Primeiros testes com pandas, SQLite e TinyDB a partir de CSV/JSON |
 | [aula-2026-08-17](./aula-2026-08-17) | Tratamento de CSVs (NCM, produtos, vendas) e carga em banco de dados |
 | [aula-2026-08-24](./aula-2026-08-24) | Importação de dados para SQLite, exportação para CSV limpo e análise em Power BI |
+| [aula-2026-09-14](./aula-2026-09-14) | Pipeline de integração com Apache Hop: PostgreSQL (Neon) + API ViaCEP |
 
 ## Tecnologias
 
 - Python (pandas, sqlite3, TinyDB)
 - SQLite
 - Power BI
+- PostgreSQL (Neon), DBeaver e Apache Hop
 
 ## Arquivos grandes (Google Drive)
 

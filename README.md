@@ -89,8 +89,8 @@ da disciplina correspondente.
 
 ## Tecnologias utilizadas ao longo do semestre
 
-Python · pandas · SQLite · TinyDB · Power BI · Node.js · Express · MongoDB
-· JWT · HTML5 · CSS3 · JavaScript
+Python · pandas · SQLite · TinyDB · Power BI · PostgreSQL · Apache Hop ·
+Node.js · Express · MongoDB · JWT · HTML5 · CSS3 · JavaScript
 
 ## Licença
 
