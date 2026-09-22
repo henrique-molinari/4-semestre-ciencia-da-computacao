@@ -1,0 +1,84 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_source": "insomnia.desktop.app",
+  "resources": [
+    {
+      "_id": "wrk_api_mongo",
+      "_type": "workspace",
+      "name": "API Mongo - Clientes",
+      "scope": "collection"
+    },
+    {
+      "_id": "req_api_mongo_10",
+      "_type": "request",
+      "parentId": "wrk_api_mongo",
+      "name": "10. GET - Listar Clientes",
+      "method": "GET",
+      "url": "http://localhost:8000/clientes",
+      "body": {},
+      "headers": [],
+      "metaSortKey": -10
+    },
+    {
+      "_id": "req_api_mongo_11",
+      "_type": "request",
+      "parentId": "wrk_api_mongo",
+      "name": "11. GET - Buscar por Cidade",
+      "method": "GET",
+      "url": "http://localhost:8000/clientes/cidade/Natal",
+      "body": {},
+      "headers": [],
+      "metaSortKey": -11
+    },
+    {
+      "_id": "req_api_mongo_12",
+      "_type": "request",
+      "parentId": "wrk_api_mongo",
+      "name": "12. POST - Inserir Cliente",
+      "method": "POST",
+      "url": "http://localhost:8000/clientes",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"nome\": \"Max Vallim\",\n  \"cidade\": \"Natal\",\n  \"idade\": 45\n}"
+      },
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "metaSortKey": -12
+    },
+    {
+      "_id": "req_api_mongo_13",
+      "_type": "request",
+      "parentId": "wrk_api_mongo",
+      "name": "13. PUT - Atualizar Cliente",
+      "method": "PUT",
+      "url": "http://localhost:8000/clientes/ID_AQUI",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"idade\": 46\n}"
+      },
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "metaSortKey": -13
+    },
+    {
+      "_id": "req_api_mongo_14",
+      "_type": "request",
+      "parentId": "wrk_api_mongo",
+      "name": "14. DELETE - Excluir Cliente",
+      "method": "DELETE",
+      "url": "http://localhost:8000/clientes/ID_AQUI",
+      "body": {},
+      "headers": [],
+      "metaSortKey": -14
+    }
+  ]
+}
